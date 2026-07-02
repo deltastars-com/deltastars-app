@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────
+# Delta Stars – Netlify routing
+# Order matters: API rewrites first, SPA fallback LAST.
+# ──────────────────────────────────────────────
+
+# API → Netlify Functions
+/api/otp/send       /.netlify/functions/otp-send              200
+/api/otp/verify     /.netlify/functions/otp-verify            200
+/api/otp/notify     /.netlify/functions/otp-notify            200
+/api/payment/create /.netlify/functions/create-payment-intent 200
+/api/payment/verify /.netlify/functions/verify-payment        200
+/api/payment/cancel /.netlify/functions/cancel-payment        200
+/api/payment/webhook /.netlify/functions/payment-webhook      200
+/api/contact        /.netlify/functions/contact-form          200
+
+# Canonical-domain redirects (only enforced once you set custom domain)
+https://www.deltastars.store/*   https://deltastars.store/:splat 301!
+http://deltastars.store/*        https://deltastars.store/:splat 301!
+
+# SPA fallback — MUST be last
+/*  /index.html  200

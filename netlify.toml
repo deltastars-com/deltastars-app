@@ -1,0 +1,36 @@
+# Netlify manual-deploy config (pre-built site).
+# The dist contents are at the package root; serverless functions live in
+# netlify/functions and are reached via the /api/otp/* redirects below.
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/otp/send"
+  to = "/.netlify/functions/otp-send"
+  status = 200
+
+[[redirects]]
+  from = "/api/otp/verify"
+  to = "/.netlify/functions/otp-verify"
+  status = 200
+
+[[redirects]]
+  from = "/api/otp/notify"
+  to = "/.netlify/functions/otp-notify"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build]
+  functions = "netlify/functions"
+
+[build.environment]
+  # Pin a Python version that actually has an installable release. The build
+  # was failing because mise was asked to install python@3.14.3, which does
+  # not exist yet, aborting tool installation before the build could run.
+  PYTHON_VERSION = "3.12.3"

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نجوم دلتا</string>
+    <string name="app_name_en">Delta Stars</string>
+    
+    <!-- Navigation -->
+    <string name="home">الرئيسية</string>
+    <string name="categories">الفئات</string>
+    <string name="cart">السلة</string>
+    <string name="profile">الملف الشخصي</string>
+    
+    <!-- Authentication -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="forgot_password">هل نسيت كلمة المرور؟</string>
+    <string name="remember_me">تذكرني</string>
+    
+    <!-- Shopping -->
+    <string name="products">المنتجات</string>
+    <string name="add_to_cart">إضافة إلى السلة</string>
+    <string name="remove_from_cart">إزالة من السلة</string>
+    <string name="quantity">الكمية</string>
+    <string name="price">السعر</string>
+    <string name="total">الإجمالي</string>
+    <string name="checkout">إتمام الشراء</string>
+    <string name="continue_shopping">متابعة التسوق</string>
+    
+    <!-- Orders -->
+    <string name="orders">الطلبات</string>
+    <string name="order_id">رقم الطلب</string>
+    <string name="order_date">تاريخ الطلب</string>
+    <string name="order_status">حالة الطلب</string>
+    <string name="order_total">إجمالي الطلب</string>
+    <string name="track_order">تتبع الطلب</string>
+    
+    <!-- Payment -->
+    <string name="payment">الدفع</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="credit_card">بطاقة ائتمان</string>
+    <string name="debit_card">بطاقة خصم</string>
+    <string name="apple_pay">Apple Pay</string>
+    <string name="google_pay">Google Pay</string>
+    <string name="paypal">PayPal</string>
+    <string name="card_number">رقم البطاقة</string>
+    <string name="expiry_date">تاريخ الانتهاء</string>
+    <string name="cvv">رمز الأمان</string>
+    
+    <!-- Delivery -->
+    <string name="delivery">التوصيل</string>
+    <string name="delivery_address">عنوان التوصيل</string>
+    <string name="delivery_time">وقت التوصيل</string>
+    <string name="delivery_fee">رسوم التوصيل</string>
+    <string name="free_delivery">توصيل مجاني</string>
+    
+    <!-- Messages -->
+    <string name="success">نجح</string>
+    <string name="error">خطأ</string>
+    <string name="warning">تحذير</string>
+    <string name="info">معلومة</string>
+    <string name="loading">جاري التحميل...</string>
+    <string name="empty">لا توجد بيانات</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="close">إغلاق</string>
+    
+    <!-- Settings -->
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="terms_conditions">شروط الخدمة</string>
+    <string name="about_us">عن التطبيق</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="version">الإصدار</string>
+    
+    <!-- Company Info -->
+    <string name="company_name">نجوم دلتا للتجارة</string>
+    <string name="company_phone">920023204</string>
+    <string name="company_email">INFO@DELTASTARS-KSA.COM</string>
+    <string name="company_website">https://deltastars-ksa.com</string>
+    <string name="company_whatsapp">0558828009</string>
+</resources>

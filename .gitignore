@@ -1,0 +1,131 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Keystore files
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# iOS
+Pods/
+Podfile.lock
+*.xcworkspace/
+*.xcarchive
+DerivedData/
+build/
+.swiftpm/
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Secrets and credentials
+secrets/
+.credentials
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+htmlcov/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~.nib
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Generated files
+*.generated.dart
+*.g.dart
+*.config.dart
+
+# Codemagic
+codemagic.yaml.bak
+
+# Build outputs
+app/release/
+app/debug/
+
+# Misc
+.classpath
+.project
+.pydevproject
+.settings
+*.sublime-project
+*.sublime-workspace
